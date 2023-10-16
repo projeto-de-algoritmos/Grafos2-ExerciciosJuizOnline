@@ -20,7 +20,7 @@ Temas:
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 19/0085045  |  Brenno da Silva Oliveira |
 | xx/xxxxxx  |  xxxx xxxx xxxxx |
 
 ## Sobre 
