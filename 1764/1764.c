@@ -12,34 +12,10 @@ typedef struct {
 edge g[MAXSIZE];
 int p[MAXSIZE_P];
 
-int comparaArestas(edge *, edge *);
-int kruskal(int);
-int componente(int);
-
-int main() {
-    int quantidadeCidades, quantidadeCaminhos, i;
-
-    while (scanf("%d %d", &quantidadeCidades, &quantidadeCaminhos), quantidadeCidades && quantidadeCaminhos) {
-        memset(g, 0, sizeof(g));
-        memset(p, 0, sizeof(p));
-
-        for (i = 0; i < quantidadeCaminhos; ++i) {
-            scanf("%d %d %d", &g[i].v, &g[i].u, &g[i].w);
-        }
-        qsort(g, quantidadeCaminhos, sizeof(edge), comparaArestas);
-
-        for (i = 1; i <= quantidadeCidades; ++i) {
-            p[i] = i;
-        }
-
-        printf("%d\n", kruskal(quantidadeCaminhos));
-    }
-
-    return 0;
-}
-
-int comparaArestas(edge *a, edge *b) {
-    return a->w - b->w;
+int comparaArestas(const void *a, const void *b) {
+    edge *aresta1 = (edge *)a;
+    edge *aresta2 = (edge *)b;
+    return aresta1->w - aresta2->w;
 }
 
 int componente(int i) {
@@ -64,3 +40,26 @@ int kruskal(int quantidadeArestas) {
 
     return ans;
 }
+
+int main() {
+    int quantidadeCidades, quantidadeCaminhos, i;
+
+    while (scanf("%d %d", &quantidadeCidades, &quantidadeCaminhos), quantidadeCidades && quantidadeCaminhos) {
+        memset(g, 0, sizeof(g));
+        memset(p, 0, sizeof(p));
+
+        for (i = 0; i < quantidadeCaminhos; ++i) {
+            scanf("%d %d %d", &g[i].v, &g[i].u, &g[i].w);
+        }
+        qsort(g, quantidadeCaminhos, sizeof(edge), comparaArestas);
+
+        for (i = 1; i <= quantidadeCidades; ++i) {
+            p[i] = i;
+        }
+
+        printf("%d\n", kruskal(quantidadeCaminhos));
+    }
+
+    return 0;
+}
+
