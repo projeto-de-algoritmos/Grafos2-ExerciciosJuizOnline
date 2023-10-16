@@ -14,12 +14,14 @@ Tema:
 ## Sobre
 
 > [1148 - Países em Guerra](https://www.beecrowd.com.br/repository/UOJ_1148.html)<br>
-> [1764 - Itinerário do Papai Noel](https://www.beecrowd.com.br/repository/UOJ_1764.html)
+> [1764 - Itinerário do Papai Noel](https://www.beecrowd.com.br/repository/UOJ_1764.html)<br>
+> [743 - Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)
 
 ## Screenshots
 
 ![1148 - Países em Guerra](1148/1148.png)
 ![1764 - Itinerário do Papai Noel](1764/1764.png)
+![743 - Network Delay Time](743/743.PNG)
 
 ## Instalação
 
