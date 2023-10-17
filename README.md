@@ -52,4 +52,4 @@ Outra forma é subtmeter os códigos dos exercícios pelo juiz online:
 
 ## Outros
 
-[Vídeo de apresentação]()
+[Vídeo de apresentação](https://youtu.be/MhXSFyxLChs)
