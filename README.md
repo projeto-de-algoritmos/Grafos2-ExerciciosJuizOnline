@@ -49,6 +49,8 @@ Outra forma é subtmeter os códigos dos exercícios pelo juiz online:
 
 - [1148 - Países em Guerra](https://www.beecrowd.com.br/judge/pt/problems/view/1148)
 - [1764 - Itinerário do Papai Noel](https://www.beecrowd.com.br/judge/pt/problems/view/1764)
+- [743 - Network Delay Time](https://leetcode.com/problems/network-delay-time/description/)
+- [1584 - Min Cost to Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/description/)
 
 ## Outros
 
